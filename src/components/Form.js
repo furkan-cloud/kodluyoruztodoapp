@@ -9,7 +9,7 @@ const Form = () => {
     if (!title) return;
 
     e.preventDefault();
-    dispatch(addTodo({ id: nanoid(), title, completed: false }));
+    dispatch(addTodo({ title}));
   };
   return (
     <form onSubmit={handleSubmit}>
