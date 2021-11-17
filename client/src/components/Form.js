@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, addTodoAsync } from "../redux/todos/todosSlice";
+import { addTodo, addTodoAsync } from "../redux/todos/services";
 import { nanoid } from "@reduxjs/toolkit";
 import Loading from "./Loading";
 import Error from "./Error";
